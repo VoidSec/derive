@@ -18,5 +18,5 @@ arguments:
   --proxy PROXY         IP of web proxy to go through (http://127.0.0.1:8080)
   -v, --verbose         Print verbose output
 
-example: python3 derive.py -t http://127.0.0.1/hostname>/index.php?a= -f index.php -v
+example: python3 derive.py -t http://127.0.0.1/index.php?a= -f index.php -v
 ```
